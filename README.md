@@ -2,32 +2,29 @@
 
 This repository contains versioned flow diagrams for workstream 2 of the better booking experience.
 
-Diagrams can be opened in [draw.io](https://draw.io)
+Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version.
 
-Requirements
+# Versions 0.0.4
 
-* End-to-end streamlined service with as few steps as possible (and having a service name that is used across this)
-* Accessible and responsive/mobile-friendly using plain English
-* Remove scope for human error 
+* [Version 0.0.4](diagrams/0.0.4.pdf) is the flow developed by Matt B and Gwyn based on the system
 
+## Feedback to version 0.0.4
 
-| Requirement | Interim soluction - Improving current system based on Advance Orders and connecting up Discovery/Elsa/Doris and SSO. This approach would involve minimum changes to current systems﻿ | BUILDING NEW TNA SYSTEM﻿  |
+| Feedback  | To be addressed in next iteration  | How it has been addressed  |
 |---|---|---|
-| **End-to-end streamlined service** with as few steps as possible (and having a service name that is used consistently across this) | Amber  | Green  |
-| **Accessible and responsive**/mobile-friendly/using Plain English | Green   | Green  |
-| Remove scope for human error as well as stress on staff by **automating as much of the workflow as possible** | Amber  | Green  |
-| **Link to Discovery/Doris for document references** (Link to Advance Orders / Elsa) connection between all relevant systems - front end booking, seat allocation & back end document ordering - clear & single feedback for user  | Green  | Green  |
-| **Fair allocation of seats** | Green  | Green  |
-| Accommodating **assisted digital** users | Green  | Green  |
-| **Feedback mechanism** for users to express pain points (or moments of delight)  | Green  | Green  |
-| **Future proof** - able to be used in the longer term for all our bookings | Red  | Green  |
-| **Easily edited/updated** by staff  | Amber  | Green  |
-| **Compatible and GDPR comppliant data tracking** to understand user behaviours | Amber  | Green  |
-| **Information at point of need** | Green  | Green  |
-| **Clear and consistent calls to action**  | Green  | Green  |
-| **Management of over-subscription** (setting expectations a part of this)﻿  | Unknown  | Green  |
-| **View availability** - Clear indication when seat are available / quick overview of availability - ideally on one screen (eg. camera stands)  | Green  | Green |
-| **Responsive to what is ordered** - i.e. if you require a map room document, it offers you a map room seat  | Amber  | Amber  |
-| **Ability to allocate 'extra' resources in a clear way** (and finding aids/wedges etc)  | Red  | Amber  |
-| **Integration with Single Sign On**. This would need SSO to be updated to link to Prologon (I think) to get Reader's ticket  | Amber  | Green  |
-| **Link in to other services post-pandemic**, as an 'Accounts' type feature. You can manage doc orders, order a book in the Shop, book an event etc  | Red  | Amber   |
+| **Users who need PC access only**: The flow should accommodate users who use reading room PCs to access online resources. These users will not need a reader's ticket or to order documents. |||
+| **Temporary reader's tickets**: Temporary reader's tickets expire after 6 weeks. Is there potential for a user's temporary ticket to expire before they can get a place? How would we accommodate this. One option could be to look into extending the time for temporary reader's tickets |||
+| **2 consecutive day visits**: These are not confined to users making a bulk order. They can also be for people who want two consecutive days of advance orders. |||
+| **Flexibility for multi-day visits**: There should be some flexibility to allow for, say, 3 day visits should that option become available in future. ||| 
+| **Should we provide guidance based on probable need?** This would involve determining how many days are _probably_ needed (based on the number of documents ordered) then showing the user availability and letting them choose. ||| 
+| **Link in to Elsa**: Because the Elsa frontend is written in Flash (which is end of life) this should link in with Elsa meaning it would have real long-term viabiity. |||
+| **Onsite vs online**: We need to consider different flows depending on the user being onsite or online. |||
+| **Camera stand availability**: This might be a deal-breaker for some people - should we ask the question earlier. |||
+| **Open with 'Choose your seat'**: Can we have choose your seat at the very beginning of the journey? ||| 
+| **Build in flexibility**: Build the system so that we can modify quite easily how many consecutive days someone can book for |||
+| **Hold the seat**: We need to hold the seat for people while they complete the process |||
+| **Alternative availability**: If there is nothing available for the user as a result of their stated preferences (for example, a camera stand) we should show them what is available instead (for example, there are seats without a camera stand) |||
+| **Register needs in advance**: Can users register their needs in advance so that availability which is specific to their needs can be shown up front (Note: this might require a link to a user account which is a bigger project) |||
+| **Knowledge at first screen**: Does a user necessarily know their document needs when they arrive at the first screen? Might we need to have 'basket' type functionality in Discovery |||
+| **Readers ticket - third option**: It is possible a user might have a readers ticket but that it has expired. ||| 
+| **Availability on first page**: By showing availability of the first page will users expect to click on the options shown. |||
