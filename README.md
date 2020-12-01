@@ -4,20 +4,24 @@ This repository contains versioned flow diagrams for workstream 2 of the better 
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version.
 
-# Versions 0.0.4
+# Versions
 
 * [Version 0.0.4](diagrams/0.0.4.pdf) is the flow developed by Matt B and Gwyn based on the system
+
+## Supplementary documents
+
+* [Elsa diagram](Elsa_diagram.pdf) is a flow chart of existing seat selection functionality in Elsa.
 
 ## Feedback to version 0.0.4
 
 | Feedback  | To be addressed in next iteration  | How it has been addressed  |
 |---|---|---|
-| **Users who need PC access only**: The flow should accommodate users who use reading room PCs to access online resources. These users will not need a reader's ticket or to order documents. |||
+| **Users who need PC access only**: The flow should accommodate users who use reading room PCs to access online resources. These users will not need a reader's ticket or to order documents. | Yes | We think there are two options here. The first would be to have this as a totally separate journey from the 'Visit us' page. If we were to opt for this we could signpost to that from the introduction. The second option would be to have this as an early choice in this process where a user is asked which path they'd like to go down. We think the former probably makes most sense so have added this. |
 | **Temporary reader's tickets**: Temporary reader's tickets expire after 6 weeks. Is there potential for a user's temporary ticket to expire before they can get a place? How would we accommodate this. One option could be to look into extending the time for temporary reader's tickets |||
 | **2 consecutive day visits**: These are not confined to users making a bulk order. They can also be for people who want two consecutive days of advance orders. |||
 | **Flexibility for multi-day visits**: There should be some flexibility to allow for, say, 3 day visits should that option become available in future. ||| 
 | **Should we provide guidance based on probable need?** This would involve determining how many days are _probably_ needed (based on the number of documents ordered) then showing the user availability and letting them choose. ||| 
-| **Link in to Elsa**: Because the Elsa frontend is written in Flash (which is end of life) this should link in with Elsa meaning it would have real long-term viabiity. | No | We need to understand the business process represented in Elsa. In addition to selecting a specific seat we know it allows users to indicate: types of documents they are likely to be viewing (maps, pre-1688 etc.), location preferences (window proximity), various access needs (difficulty bending down or wheelchair access), researching with others etc. **We anticipate their selections have an impact on the options presented in the seat selection tool**. James B has been asked pull together a decision tree and share it with us we can then determine how much work might be involved in developing a like-for-like implementation. |
+| **Link in to Elsa**: Because the Elsa frontend is written in Flash (which is end of life) this should link in with Elsa meaning it would have real long-term viabiity. | Yes | In addition to selecting a specific seat Elsa allows users to indicate: types of documents they are likely to be viewing (maps, pre-1688 etc.), location preferences (window proximity), various access needs (difficulty bending down or wheelchair access), researching with others etc. James B has pulled together a [decision tree](Elsa_diagram.pdf) which shows the current options provided in Elsa. While the seat selection is stored in Doris, new work (based on a like-for-like implementation) that would be required includes: the front-end web application logic to carry a user's state across different screens (and present only logical next steps, based on their previous selections) and pass this through to Doris; a seat selection tool (HTML progressively enhanced to SVG) with element state being linked to Doris availability. |
 | **Onsite vs online**: We need to consider different flows depending on the user being onsite or online. |||
 | **Camera stand availability**: This might be a deal-breaker for some people - should we ask the question earlier. |||
 | **Open with 'Choose your seat'**: Can we have choose your seat at the very beginning of the journey? ||| 
