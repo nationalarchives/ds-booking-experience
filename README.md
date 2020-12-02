@@ -43,7 +43,7 @@ Version 0.0.5 has raised the following questions:
 | **Onsite vs online**: We need to consider different flows depending on the user being onsite or online. |||
 | **Camera stand availability**: This might be a deal-breaker for some people - should we ask the question earlier. |||
 | **Open with 'Choose your date'**: Can we have choose your date at the very beginning of the journey? ||| 
-| **Build in flexibility**: Build the system so that we can modify quite easily how many consecutive days someone can book for |||
+| **Build in flexibility**: Build the system so that we can modify quite easily how many consecutive days someone can book for | Yes | We have updated the flow to provide a suggested number of days to visit (based on the number of documents ordered) and also allowed users to override this with their own duration selection |
 | **Hold the seat**: We need to hold the seat for people while they complete the process |||
 | **Alternative availability**: If there is nothing available for the user as a result of their stated preferences (for example, a camera stand) we should show them what is available instead (for example, there are seats without a camera stand) |||
 | **Register needs in advance**: Can users register their needs in advance so that availability which is specific to their needs can be shown up front (Note: this might require a link to a user account which is a bigger project) |||
