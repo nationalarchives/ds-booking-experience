@@ -1,6 +1,6 @@
 # Better booking experience - Workstream 2
 
-## Index
+Use this list to navigate this page:
 
 * Diagram versions
     * [Version 0.0.5](#version-005) is the flow updated to reflect some of the feedback to 0.0.4.
