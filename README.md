@@ -10,7 +10,7 @@ Use this list to navigate this page:
 
 ## Introduction
 
-Workstream 2 is intended to improve upon what was delivered under Workstream 1 while acknowledging the constraints of limited time and resources available for this work. It is not intended to represent an ideal booking system.
+Workstream 2 is intended to improve upon what was delivered under Workstream 1 while acknowledging that it's better to launch sooner and iteratively improve the experience over time than to delay in an attempt to create the ideal experience. We will also need to keep in mind that we're in the process of developing a new technical platform for our website and as a result some of this work will essentially be throwaway so some more complex features will likely be added to our future Beta plans rather than included in Workstream 2. 
 
 The first step of Workstream 2 is analysis of required messaging, decisions and user actions. These are being recorded in flow diagrams and uploaded here for versioning purposes. 
 
