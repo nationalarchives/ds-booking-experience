@@ -61,8 +61,6 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 * **Amend document order:** is it possible for users to amend a document order in advance of their visit
 * **Transparency about impact of selected options:** ideally the user should transparency about how their choices affect availability - e.g. what happens if I select camera stand or do not?
 * **Future proofing:** how far in the future do we need to think about the system? Flexibility e.g. to enable booking of other spaces, PC only spaces, exhibitions etc. 
-* **PC and document visits:** users may want to use both PCs and to view documents in the same visit
-* **PC seats are not bookable:** they're located in the 'Start here' area
 * **DSD notified once:** can DSD receive a single notification of a booking (rather than multiple notifications for a single booking)
 * **Key questions for seat allocation:** which reading room; camera stand; accessibility requirements
 * **Avoid advising on number of days:** we should seek to avoid a situation where staff have to tell a user that they are unable to return the next day when they haven't concluded their research and the duration of the visit was based on our advice. 
