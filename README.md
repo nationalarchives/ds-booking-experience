@@ -16,11 +16,15 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
-Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version.
+Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 0.0.6
+
+
 
 ## Version 0.0.5
 
-[Version 0.0.5](diagrams/0.0.5.pdf) was concluded on 3 December (before a workshop on 4 December). It incoporates some of the feedback Version 0.0.4 received, as detailed below. All feedback which has not yet been addressed is [listed below](#feedback-which-has-not-been-addressed). We have also prepared a flow representing the [current seat selection process (in Elsa)](Elsa_diagram.pdf).
+[Version 0.0.5](iterations/0.0.5.pdf) was concluded on 3 December (before a workshop on 4 December). It incoporates some of the feedback Version 0.0.4 received, as detailed below. All feedback which has not yet been addressed is [listed below](#feedback-which-has-not-been-addressed). We have also prepared a flow representing the [current seat selection process (in Elsa)](Elsa_diagram.pdf).
 
 ### Changes in response to feedback for 0.0.5
 
@@ -38,9 +42,26 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 ## Version 0.0.4 
 
-[Version 0.0.4](diagrams/0.0.4.pdf) was concluded on 25 November in preparation for a stakeholder meeting.
+[Version 0.0.4](iterations/0.0.4.pdf) was concluded on 25 November in preparation for a stakeholder meeting.
 
 ## Feedback which has not been addressed
+
+### Version 0.0.5
+
+* **Don't diminish the experience:** must check for functionality that is provided in Eventbrite that we don't want to lose (e.g. cancellation)
+* **Flexibility to changes:** must be able to accommodate changes as COVID situation and offer changes
+* **Must be an improvement for DSD manual backend processes**
+* **Cancellation option:** is it possible to cancel one day out of a three day visit, for example, without losing the whole visit
+* **Amend document order:** is it possible for users to amend a document order in advance of their visit
+* **Transparency about impact of selected options:** ideally the user should transparency about how their choices affect availability - e.g. what happens if I select camera stand or do not?
+* **Future proofing:** how far in the future do we need to think about the system? Flexibility e.g. to enable booking of other spaces, PC only spaces, exhibitions etc. 
+* **PC and document visits:** users may want to use both PCs and to view documents in the same visit
+* **PC seats are not bookable:** they're located in the 'Start here' area
+* **DSD notified once:** can DSD receive a single notification of a booking (rather than multiple notifications for a single booking)
+* **Key questions for seat allocation:** which reading room; camera stand; accessibility requirements
+* **Avoid advising on number of days:** we should seek to avoid a situation where staff have to tell a user that they are unable to return the next day when they haven't concluded their research and the duration of the visit was based on our advice. 
+ 
+### Version 0.0.4
 
 * **Onsite vs online**: We need to consider different flows depending on the user being onsite or online. 
 * **Open with 'Choose your date'**: Can we have choose your date at the very beginning of the journey?  
