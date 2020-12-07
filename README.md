@@ -20,6 +20,12 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 ## Version 0.0.6
 
+### Changes in response to feedback for 0.0.6
+
+| Feedback  | Has it been addressed in this iteration | How it has been addressed  |
+|---|---|---|
+| **PC and document visits:** users may want to use both PCs and to view documents in the same visit | Yes | Explain that users booking to view physical documents will be able to user PCs in the 'Start here' area but those who do not wish to view documents need not proceed through this booking process (providing link to relevant page on our site) |
+| **PC seats are not bookable:** they're located in the 'Start here' area | Yes | See above|
 
 
 ## Version 0.0.5
