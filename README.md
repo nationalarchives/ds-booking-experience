@@ -79,6 +79,7 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 | Specialism | Confidence in understanding of what is required | High-level estimate of dedicated effort required | Confidence in this estimate | Further information that would help with estimating | 
 |---|---|---|---|---|
+| Testing effort (all required types) ||||
 | UX effort ||||
 | Content design effort ||||
 | Analytics effort ||||
