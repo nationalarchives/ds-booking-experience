@@ -20,12 +20,17 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 ## Version 0.0.6
 
+This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible, the stakeholder feedback received on 4 December. 
+
 ### Changes in response to feedback for 0.0.6
 
 | Feedback  | Has it been addressed in this iteration | How it has been addressed  |
 |---|---|---|
 | **PC and document visits:** users may want to use both PCs and to view documents in the same visit | Yes | Explain that users booking to view physical documents will be able to user PCs in the 'Start here' area but those who do not wish to view documents need not proceed through this booking process (providing link to relevant page on our site) |
 | **PC seats are not bookable:** they're located in the 'Start here' area | Yes | See above|
+| **Transparency about impact of selected options:** ideally the user should transparency about how their choices affect availability - e.g. what happens if I select camera stand or do not? | Yes | We have proposed two things here. The first is to show the availability at point of selection (For example, when selecting a reading room, the number of seats will be shown). The second is to allow the user to step back to a previous step should they wish to. |
+| **Key questions for seat allocation:** which reading room; camera stand; accessibility requirements | Yes | We have introduced these three options. For camera stand and reading room choices, the number of spaces will be shown. Again, users will be able to step back to an earlier decision. | 
+| **Avoid advising on number of days:** we should seek to avoid a situation where staff have to tell a user that they are unable to return the next day when they haven't concluded their research and the duration of the visit was based on our advice. | Yes | We have removed the recommendation. The user selection will instead be used to determine if they are shown the bulk or advance order form. |
 
 
 ## Version 0.0.5
@@ -59,11 +64,8 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 * **Must be an improvement for DSD manual backend processes**
 * **Cancellation option:** is it possible to cancel one day out of a three day visit, for example, without losing the whole visit
 * **Amend document order:** is it possible for users to amend a document order in advance of their visit
-* **Transparency about impact of selected options:** ideally the user should transparency about how their choices affect availability - e.g. what happens if I select camera stand or do not?
 * **Future proofing:** how far in the future do we need to think about the system? Flexibility e.g. to enable booking of other spaces, PC only spaces, exhibitions etc. 
 * **DSD notified once:** can DSD receive a single notification of a booking (rather than multiple notifications for a single booking)
-* **Key questions for seat allocation:** which reading room; camera stand; accessibility requirements
-* **Avoid advising on number of days:** we should seek to avoid a situation where staff have to tell a user that they are unable to return the next day when they haven't concluded their research and the duration of the visit was based on our advice. 
  
 ### Version 0.0.4
 
