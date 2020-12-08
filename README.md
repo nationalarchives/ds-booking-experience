@@ -20,7 +20,7 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 ## Version 0.0.6
 
-This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible, the stakeholder feedback received on 4 December. 
+This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible, the stakeholder feedback received on 4 December. We've also prepared a flow to represent the logic to determine if a user is [within the maximum number of bookings](within-max-bookings.pdf).
 
 ### Changes in response to feedback for 0.0.6
 
