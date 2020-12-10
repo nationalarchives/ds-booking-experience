@@ -57,6 +57,13 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 
 ## Feedback which has not been addressed
 
+### Version 0.0.6
+
+* **Filter place availability up front:** allow users to filter availability (so that they can see if there's a suitable place for them)
+* **Hold a place:** allow users to hold a place (once they have identified a suitable place)
+* **Allow document orders to be edited:** ** this would allow document orders to be edited before submission to document services
+* **Ordering up to 24 documents is problematic:** it could be misleading since it is only available to users who are making multi-day visits
+
 ### Version 0.0.5
 
 * **Don't diminish the experience:** must check for functionality that is provided in Eventbrite that we don't want to lose (e.g. cancellation)
@@ -72,7 +79,7 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 * **Onsite vs online**: We need to consider different flows depending on the user being onsite or online. 
 * **Open with 'Choose your date'**: Can we have choose your date at the very beginning of the journey?  
 * **Hold the seat**: We need to hold the seat for people while they complete the process 
-* **Temporary reader's tickets**: Temporary reader's tickets expire after 6 weeks. Is there potential for a user's temporary ticket to expire before they can get a place? How would we accommodate this. One option could be to look into extending the time for temporary reader's tickets | | |
+* **Temporary reader's tickets**: Temporary reader's tickets expire after 6 weeks. Is there potential for a user's temporary ticket to expire before they can get a place? How would we accommodate this. One option could be to look into extending the time for temporary reader's tickets
 * **Alternative availability**: If there is nothing available for the user as a result of their stated preferences (for example, a camera stand) we should show them what is available instead (for example, there are seats without a camera stand) 
 * **Register needs in advance**: Can users register their needs in advance so that availability which is specific to their needs can be shown up front (Note: this might require a link to a user account which is a bigger project) 
 * **Knowledge at first screen**: Does a user necessarily know their document needs when they arrive at the first screen? Might we need to have 'basket' type functionality in Discovery 
