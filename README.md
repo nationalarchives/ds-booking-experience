@@ -61,7 +61,7 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 
 * **Filter place availability up front:** allow users to filter availability (so that they can see if there's a suitable place for them)
 * **Hold a place:** allow users to hold a place (once they have identified a suitable place)
-* **Allow document orders to be edited:** ** this would allow document orders to be edited before submission to document services
+* **Allow document orders to be edited:** this would allow document orders to be edited before submission to document services
 * **Ordering up to 24 documents is problematic:** it could be misleading since it is only available to users who are making multi-day visits
 
 ### Version 0.0.5
@@ -86,13 +86,13 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 
 ## Estimation table
 
-| Specialism | Confidence in understanding of what is required | High-level estimate of dedicated effort required | Confidence in this estimate | Further information that would help with estimating | 
-|---|---|---|---|---|
-| Testing effort (all required types) ||||
-| UX effort ||||
-| Content design effort ||||
-| Analytics effort ||||
-| Reporting effort ||||
-| Server-side development effort ||||
-| Front end development effort |||| To provide a high-level estimate for front end development aspects of Workstream 2 as a whole we need: a clear understanding of the scope; an agreed flow to base estimates on, and; an understanding of how the flow corresponds to user interfaces to be built. We also need to know if any of the other approaches will impact this (for example, if it is anticipated we'll need to write any JavaScript modules to support the analytics approach) and how many iterations of user testing / refinement are expected (since each iteration will add to the estimate).
-| Design effort ||||
+| Specialism | Confidence in understanding of what is required | High-level estimate of dedicated effort required | Confidence in this estimate | Further information that would help with estimating | How much of this work would be throw-away
+|---|---|---|---|---|---|
+| Testing effort (all required types) |||||
+| UX effort |||||
+| Content design effort |||||
+| Analytics effort |||||
+| Reporting effort |||||
+| Server-side development effort |||||
+| Front end development effort |||| To provide a high-level estimate for front end development aspects of Workstream 2 as a whole we need: a clear understanding of the scope; an agreed flow to base estimates on, and; an understanding of how the flow corresponds to user interfaces to be built. We also need to know if any of the other approaches will impact this (for example, if it is anticipated we'll need to write any JavaScript modules to support the analytics approach) and how many iterations of user testing / refinement are expected (since each iteration will add to the estimate).|
+| Design effort |||||
