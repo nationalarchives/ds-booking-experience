@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 0.0.7](#version-007) is the flow updated to reflect the feedback to 0.0.6.
     * [Version 0.0.6](#version-006) is the flow updated to reflect some of the feedback to 0.0.5.
     * [Version 0.0.5](#version-005) is the flow updated to reflect some of the feedback to 0.0.4.
     * [Version 0.0.4](#version-004) is the flow developed by Matt B and Gwyn based on their understanding of the systems/process.
@@ -18,6 +19,20 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 0.0.7
+
+This [version](iterations/0.0.7.pdf) has been updated to reflect feedback received on 10 December. 
+
+### Changes in response to feedback for 0.0.7
+
+| Feedback  | Has it been addressed in this iteration | How it has been addressed  |
+|---|---|---|
+| **Filter place availability up front:** allow users to filter availability (so that they can see if there's a suitable place for them) | Yes | Very early in the process (on the first screen) users can filter places by specific attributes (two-day visit, bulk or advance order, camera stand, specified reading room) |
+| **Hold a place:** allow users to hold a place (once they have identified a suitable place) | Yes | Having identified a suitable place users can immediately hold it for a (to be specified) period. The booking will be confirmed when they provide their Reader's Ticket |
+| **Allow document orders to be edited:** this would allow document orders to be edited before submission to document services | Yes | Users are able to return to the form at any point (authenticating using a unique code and their Reader's Ticket) in order to make an amendment. The form is only sent to Document Services when it is necessary to begin preparing the documents. This is a slightly different model in that the user will be _saving_ their order rather than _submitting_ it |
+| **Ordering up to 24 documents is problematic:** it could be misleading since it is only available to users who are making multi-day visits | Yes | We have removed this option. The user can now filter by availability at the beginning of the process and will be presented with a form that reflects their choice. **Note:** this does require the forms to be somewhat dynamic in order to accommodate multi-day visits |
+
 
 ## Version 0.0.6
 
@@ -57,13 +72,6 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 [Version 0.0.4](iterations/0.0.4.pdf) was concluded on 25 November in preparation for a stakeholder meeting.
 
 ## Feedback which has not been addressed
-
-### Version 0.0.6
-
-* **Filter place availability up front:** allow users to filter availability (so that they can see if there's a suitable place for them)
-* **Hold a place:** allow users to hold a place (once they have identified a suitable place)
-* **Allow document orders to be edited:** this would allow document orders to be edited before submission to document services
-* **Ordering up to 24 documents is problematic:** it could be misleading since it is only available to users who are making multi-day visits
 
 ### Version 0.0.5
 
