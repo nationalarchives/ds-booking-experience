@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 0.0.6](#version-006) is the flow updated to reflect some of the feedback to 0.0.5.
     * [Version 0.0.5](#version-005) is the flow updated to reflect some of the feedback to 0.0.4.
     * [Version 0.0.4](#version-004) is the flow developed by Matt B and Gwyn based on their understanding of the systems/process.
 * [Feedback which has not been addressed](#feedback-which-has-not-been-addressed)
