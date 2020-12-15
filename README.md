@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 0.0.8](#version-008) is the flow updated have accessibility questions moved the the end of the process
     * [Version 0.0.7](#version-007) is the flow updated to reflect the feedback to 0.0.6.
     * [Version 0.0.6](#version-006) is the flow updated to reflect some of the feedback to 0.0.5.
     * [Version 0.0.5](#version-005) is the flow updated to reflect some of the feedback to 0.0.4.
@@ -19,6 +20,10 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 0.0.8 
+
+This [version](iterations/0.0.8.pdf) has been updated to move questions related to accessibility needs to the end of the process. 
 
 ## Version 0.0.7
 
