@@ -38,7 +38,6 @@ This [version](iterations/0.0.7.pdf) has been updated to reflect feedback receiv
 | **Allow document orders to be edited:** this would allow document orders to be edited before submission to document services | Yes | Users are able to return to the form at any point (authenticating using a unique code and their Reader's Ticket) in order to make an amendment. The form is only sent to Document Services when it is necessary to begin preparing the documents. This is a slightly different model in that the user will be _saving_ their order rather than _submitting_ it |
 | **Ordering up to 24 documents is problematic:** it could be misleading since it is only available to users who are making multi-day visits | Yes | We have removed this option. The user can now filter by availability at the beginning of the process and will be presented with a form that reflects their choice. **Note:** this does require the forms to be somewhat dynamic in order to accommodate multi-day visits |
 
-
 ## Version 0.0.6
 
 This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible, the stakeholder feedback received on 4 December. We've also prepared a flow to represent the logic to determine if a user is [within the maximum number of bookings](within-max-bookings.pdf).
@@ -100,7 +99,7 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 
 ## Estimation table
 
-| Specialism | Confidence in understanding of what is required | High-level estimate of dedicated effort required | Confidence in this estimate | Further information that would help with estimating | How much of this work would be throw-away
+| Specialism | Confidence in understanding of what is required | High-level estimate of dedicated effort required | Confidence in this estimate | Further information | How much of this work would be throw-away
 |---|---|---|---|---|---|
 | Testing effort (all required types) |||||
 | UX effort |||||
@@ -108,5 +107,5 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 | Analytics effort |||||
 | Reporting effort |||||
 | Server-side development effort |||||
-| Front end development effort |||| To provide a high-level estimate for front end development aspects of Workstream 2 as a whole we need: a clear understanding of the scope; an agreed flow to base estimates on, and; an understanding of how the flow corresponds to user interfaces to be built. We also need to know if any of the other approaches will impact this (for example, if it is anticipated we'll need to write any JavaScript modules to support the analytics approach) and how many iterations of user testing / refinement are expected (since each iteration will add to the estimate).|
+| Front end development effort | Medium | ~4 sprints | Medium | This is based on the flow shown in 0.0.8. It does not include any revisions in response to user testing or any bespoke JavaScript modules to support analytics needs (if required). | If this is a new application most work should be usable going forward.
 | Design effort |||||
