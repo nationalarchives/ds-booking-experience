@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 1.0](#version-10) is the flow MVP estimates will be based upon
     * [Version 0.0.8](#version-008) is the flow updated have accessibility questions moved the the end of the process
     * [Version 0.0.7](#version-007) is the flow updated to reflect the feedback to 0.0.6.
     * [Version 0.0.6](#version-006) is the flow updated to reflect some of the feedback to 0.0.5.
@@ -20,6 +21,10 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.0
+
+This [version](iterations/1.0.pdf) was presented to stakeholders along with the MVP requirements and an accompanying [Axure prototype](/iterations/1.0.rp) (see screenshots [here](/iterations/wireframe_screenshots/1.0)) on 17 December. This major version bump reflects agreement that this is an initial version to be estimated against (accepting that further refinement and thought will be necessary).
 
 ## Version 0.0.8 
 
@@ -107,5 +112,5 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 | Analytics effort |||||
 | Reporting effort |||||
 | Server-side development effort |||||
-| Front end development effort | Medium | ~4 sprints | Medium | This is based on the flow shown in 0.0.8. It does not include any revisions in response to user testing or any bespoke JavaScript modules to support analytics needs (if required). | If this is a new application most work should be usable going forward.
+| Front end development effort | Medium | ~4 sprints | Medium | This is based on the flow shown in 1.0. This includes all known screens and partials delivered through [a progressive enhancement approach](https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna). It does not include any revisions in response to user testing or any bespoke JavaScript modules to support analytics needs (if required). | If this is a new application most work should be usable going forward.
 | Design effort |||||
