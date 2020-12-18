@@ -112,5 +112,5 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 | Analytics effort |||||
 | Reporting effort |||||
 | Server-side development effort |||||
-| Front end development effort | Medium | ~4 sprints | Medium | This is based on the flow shown in 1.0. This includes all known screens and partials delivered through [a progressive enhancement approach](https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna). It does not include any revisions in response to user testing or any bespoke JavaScript modules to support analytics needs (if required). | If this is a new application most work should be usable going forward.
+| Front end development effort | Medium |  | Medium | This is based on the flow shown in 1.0. This includes all known screens and partials delivered through [the development approach agreed for Beta](https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna) and tested for accessibility. | If this is a new application most work should be usable going forward.
 | Design effort |||||
