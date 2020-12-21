@@ -31,7 +31,7 @@ This [version](iterations/1.1.pdf) elaborates on:
 
 ## Version 1.0
 
-This [version](iterations/1.0.pdf) was presented to stakeholders along with the MVP requirements and an accompanying [Axure prototype](/iterations/1.0.rp) (see screenshots [here](/iterations/wireframe_screenshots/1.0)) on 17 December. This major version bump reflects agreement that this is an initial version to be estimated against (accepting that further refinement and thought will be necessary).
+This [version](iterations/1.0.pdf) was presented to stakeholders along with the MVP requirements and an accompanying [Axure prototype](/iterations/1.0.rp) (see screenshots [here](/iterations/wireframe-screenshots/1.0)) on 17 December. This major version bump reflects agreement that this is an initial version to be estimated against (accepting that further refinement and thought will be necessary).
 
 ## Version 0.0.8 
 
