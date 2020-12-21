@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 1.1](#version-11) elaborates on some of the features alluded to in Version 1.0
     * [Version 1.0](#version-10) is the flow MVP estimates will be based upon
     * [Version 0.0.8](#version-008) is the flow updated have accessibility questions moved the the end of the process
     * [Version 0.0.7](#version-007) is the flow updated to reflect the feedback to 0.0.6.
@@ -21,6 +22,12 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.1 
+
+This [version](iterations/1.1.pdf) elaborates on: 
+
+* [Post booking actions](post-booking-actions.md) that will be automated in the system (reminder emails etc.)
 
 ## Version 1.0
 
