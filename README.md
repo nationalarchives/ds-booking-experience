@@ -29,6 +29,7 @@ This [version](iterations/1.1.pdf):
 
 * Elaborates on [post booking actions](post-booking-actions.md) that will be automated in the system (reminder emails etc.)
 * Adds questions relating to the scenario where a user might not have access to the email address associated with their Reader's Ticket
+* Extends the flow to allow users to cancel their visit
 
 ## Version 1.0
 
