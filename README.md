@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 1.2](#version-12) Outlines the pages, proposes URLs, HTTP methods and parameters for passing information
     * [Version 1.1](#version-11) elaborates on some of the features alluded to in Version 1.0
     * [Version 1.0](#version-10) is the flow MVP estimates will be based upon
     * [Version 0.0.8](#version-008) is the flow updated have accessibility questions moved the the end of the process
