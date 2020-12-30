@@ -31,6 +31,7 @@ This [version](iterations/1.2.pdf):
 * Outlines the pages included in the application
 * Proposes URLs, based on a to be define service name
 * Proposes HTTP methods and parameters
+* Elaborates on [progressive enhancement options](https://github.com/nationalarchives/ds-booking-experience#estimation-table) for the availability tool
 
 ## Version 1.1 
 
@@ -130,5 +131,7 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 | Analytics effort |||||
 | Reporting effort |||||
 | Server-side development effort |||||
-| Front end development effort | Medium |  | Medium | This is based on the flow shown in 1.0. This includes all known screens and partials delivered through [the development approach agreed for Beta](https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna) and tested for accessibility. | If this is a new application most work should be usable going forward.
+| Front end development effort | Medium |  | Medium | This is based on the flow shown in 1.0. This includes all known screens and partials delivered through [the development approach agreed for Beta](https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna) ⚐ and tested for accessibility. | If this is a new application most work should be usable going forward.
 | Design effort |||||
+
+⚐ **Note:** the MVP progressive enhancement approach is for a change event listener to be placed upon the availability widget. The associated event handler will trigger a submit event and subsequent page refresh. A further enhancement is possible via a stateful React component that communicates directly with an availability API (that the back end developers would need to create) and which updates the History API and provides state change information to assistive technologies. This would need to be estimated separately.  
