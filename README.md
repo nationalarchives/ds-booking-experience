@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 1.3](#version-13) extracts the confirmation step to a separate page and accommodates analytics feedback in HTTP parameter options
     * [Version 1.2](#version-12) outlines the pages, proposes URLs, HTTP methods and parameters for passing information
     * [Version 1.1](#version-11) elaborates on some of the features alluded to in Version 1.0
     * [Version 1.0](#version-10) is the flow MVP estimates will be based upon
@@ -23,6 +24,13 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.3
+
+This [version](iterations/1.3.pdf): 
+
+* extracts the confirmation step to a separate page 
+* accommodates analytics feedback in HTTP parameter options
 
 ## Version 1.2 
 
