@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * Diagram versions
+    * [Version 1.4](#version-14) allows users to see general availability up front and/or select a specific date up-front
     * [Version 1.3](#version-13) extracts the confirmation step to a separate page and accommodates analytics feedback in HTTP parameter options
     * [Version 1.2](#version-12) outlines the pages, proposes URLs, HTTP methods and parameters for passing information
     * [Version 1.1](#version-11) elaborates on some of the features alluded to in Version 1.0
@@ -24,6 +25,21 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.4
+
+This [version](iterations/1.4.pdf) seeks to address what has been described as the 'availability conundrum', the essence of this conundrum is: **_how do you present general availability (in a meaningful and digestible way) when availability is any combination across five facets (date, room, order type, camera stand and duration)?_** Previous approaches have have either: 
+
+* led the user through a process of stating their requirements across each facet (which provides the user with a clear sense of the places available for your needs but does not address the question of showing availability up front); 
+* shown general availability up front in which case the availability shown is unlikely to reflect any specific user requirements and may lead to frustration later; 
+* shown availability based on some 'defaults'. This could lead to users missing that there is availability beyond that which is shown and introduces complexity when the default availability has been exhausted
+
+The approach in version 1.4 attempts to strike a balance between both by introducing 'specified' and 'unspecified' date paths.
+
+It also: 
+
+* Clarifies the requirement for a timer on the Reader's Ticket page (and how this will be approached in order to meet accessibility regulations)
+* Removes the confirmation page on the basis that it doesn't fit with a user experience where an order remains open for a user to amend at any point until it is closed (by the system, at a specified point before the visit) so that Document Services can prepare the order. Instead the user will be provided with in page confirmation of any amendments they make. 
 
 ## Version 1.3
 
