@@ -2,7 +2,7 @@
 
 Use this list to navigate this page:
 
-* Diagram versions
+* **Diagram versions**
     * [Version 1.4](#version-14) allows users to see general availability up front and/or select a specific date up-front
     * [Version 1.3](#version-13) extracts the confirmation step to a separate page and accommodates analytics feedback in HTTP parameter options
     * [Version 1.2](#version-12) outlines the pages, proposes URLs, HTTP methods and parameters for passing information
@@ -13,6 +13,8 @@ Use this list to navigate this page:
     * [Version 0.0.6](#version-006) is the flow updated to reflect some of the feedback to 0.0.5.
     * [Version 0.0.5](#version-005) is the flow updated to reflect some of the feedback to 0.0.4.
     * [Version 0.0.4](#version-004) is the flow developed by Matt B and Gwyn based on their understanding of the systems/process.
+* **User testing feedback**
+    * [First iteration](#first-iteration) tested the version 1.4 wireframes with six participants
 * [Feedback which has not been addressed](#feedback-which-has-not-been-addressed)
 * [Estimation table](#estimation-table)
 
@@ -144,6 +146,22 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 * **Alternative availability**: If there is nothing available for the user as a result of their stated preferences (for example, a camera stand) we should show them what is available instead (for example, there are seats without a camera stand) 
 * **Register needs in advance**: Can users register their needs in advance so that availability which is specific to their needs can be shown up front (Note: this might require a link to a user account which is a bigger project) 
 * **Knowledge at first screen**: Does a user necessarily know their document needs when they arrive at the first screen? Might we need to have 'basket' type functionality in Discovery 
+
+## User testing feedback
+
+## First iteration
+
+This user testing was against version 1.4 of the wireframes with six participants. Recommendations are: 
+
+1. Make it very clear where to start the process - Users are confused by being able to choose by date and by order type - make it more clear what they need to do in the first step
+2. Allow users to easily start with a date/availability.
+3. Try to limit the number of pages/steps so if user needs to amend a choice to increase availability they can do it more easily.
+4. The title of this page is 'Book a Visit' confusing to start with choosing an order type. Refine this to be more about the visit rather than document type.
+5. Most users did not notice the reader's ticket or computer booking options - this needs to be reconsidered.
+6. Perhaps less emphasis on Bulk and Map room as these are not as common - not equal choices as currently presented. Instead perhaps show availability by default to the most common type of booking (Standard with Standard reading room  with an option to add a camera stand. You could allow users to change this default view via filters perhaps? Perhaps as well signposting to a separate journey for bulk orders as these are so different.
+7. User needs immediate feedback on choices made and a way to undo/amend easily to increase availability.
+8. Instead of clicking 'next ' or 'refresh' can this happen automatically when user selects the option itself, thus removing an interaction/step?
+9. All users knew what to expect at the end of this process - an advance order form or an email with confirmation and link to an advance order form so let's keep this similar in next iterations unless we can make this even more seamless.
 
 ## Estimation table
 
