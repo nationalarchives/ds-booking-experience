@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * **Diagram versions**
+    * [Version 1.5](#version-15) incorporates changes in response to the first round of user testing
     * [Version 1.4](#version-14) allows users to see general availability up front and/or select a specific date up-front
     * [Version 1.3](#version-13) extracts the confirmation step to a separate page and accommodates analytics feedback in HTTP parameter options
     * [Version 1.2](#version-12) outlines the pages, proposes URLs, HTTP methods and parameters for passing information
@@ -27,6 +28,39 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.5 
+
+This version incorporates the following changes in response to user feedback: 
+
+<dl>
+<dt>Make it very clear where to start the process - Users are confused by being able to choose by date and by order type - make it more clear what they need to do in the first step</dt>
+<dd>This version invites the user to make a single choice on the first page. Options are presented with equal weighting to make it clear what the two distinct options are. We have changed the visual presentation and added comparative text to help users understand the difference.</dd>
+<dt>Allow users to easily start with a date/availability.</dt>
+<dd>In order to provide a richer presentation of availability there will be more controls on the interface. This immediately creates more information to process which risks people missing important content. In order to retain the principle of the previous recommendation, we are suggesting that the richer presentation of availability comes once the user has been presented with key information (what they will need etc.) and a user has made a choice about the volume of documents they want to look at.</dd>
+<dt>Try to limit the number of pages/steps so if user needs to amend a choice to increase availability they can do it more easily.</dt>
+<dd>We have reduced the number of pages from a seven down to four (this includes the confirmation screen).</dd>
+<dt>The title of this page is 'Book a Visit' confusing to start with choosing an order type. Refine this to be more about the visit rather than document type.</dt>
+<dd>We have updated the page title to be 'Book a visit to view our documents'. We have also updated the options to reflect this with 'Book a standard visit' and 'Book a bulk order visit'. </dd>
+<dt>Most users did not notice the reader's ticket or computer booking options - this needs to be reconsidered.</dt>
+<dd>We have suggested that 'What you will need to book a visit' is treated as page content - rather than given the visual treatment given to options on the page - and is placed before the booking options on the basis that it has information related to that decision. We have also suggested that the 'PC use only' option is moved below the primary booking options and given a slightly different visual treatment.</dd>
+<dt>Perhaps less emphasis on Bulk and Map room as these are not as common - not equal choices as currently presented. Instead perhaps show availability by default to the most common type of booking (Standard with Standard reading room  with an option to add a camera stand. You could allow users to change this default view via filters perhaps? Perhaps as well signposting to a separate journey for bulk orders as these are so different.</dt>
+<dd>We have suggested addressing this in two ways: firstly by having the 'standard' option visually differentiated from the bulk option with guidance that it is the 'Most commmon choice'. Secondly, the Map room will not be presented as the default option on the availability tool.</dd>
+<dt>User needs immediate feedback on choices made and a way to undo/amend easily to increase availability.</dt>
+<dd>We have sought to improve the immediate feedback by introducing the date availability tool and </dd>
+<dt>Instead of clicking 'next ' or 'refresh' can this happen automatically when user selects the option itself, thus removing an interaction/step?</dt>
+<dd>We have moved away from clickable panels (and the 'one idea per page' approach) which should address this issue. It is worth noting though that the core, HTML only version (which will be presented to any user who does not have JavaScript and/or CSS) will require the presence of 'next' or 'refresh' buttons. This version is likely to be encountered by less than 2% of users.</dd>
+<dt>All users knew what to expect at the end of this process - an advance order form or an email with confirmation and link to an advance order form so let's keep this similar in next iterations unless we can make this even more seamless.</dt>
+<dd>This part of the process has not changed in this iteration but this feedback will be considered in future iterations.</dd>
+</dl>
+
+Additional notes on Version 1.5: 
+
+* We have tried to simplify the interface on the date availability page and to make it more touch device friendly.
+* By describing the distinction between a bulk and standard order it has removed the need for a description on the date availability too. This has allowed us to introduce a control which allows users to toggle between the views without cluttering the interface or having to provided additional explanation. 
+* We have proposed a way for two-day visits to be presented in the availability presentation tool
+* We have tried to simplify the interface on the reader's ticket page and to focus attention on the primary action.
+
 
 ## Version 1.4
 
