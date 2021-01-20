@@ -31,7 +31,7 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 ## Version 1.5 
 
-This [version](iterations/1.5.pdf) incorporates the following changes in response to user feedback: 
+This [version](iterations/1.5.pdf) incorporates the following changes **in response to user feedback**: 
 
 <dl>
 <dt>Make it very clear where to start the process - Users are confused by being able to choose by date and by order type - make it more clear what they need to do in the first step</dt>
@@ -52,6 +52,21 @@ This [version](iterations/1.5.pdf) incorporates the following changes in respons
 <dd>We have moved away from clickable panels (and the 'one idea per page' approach) which should address this issue. It is worth noting though that the core, HTML only version (which will be presented to any user who does not have JavaScript and/or CSS) will require the presence of 'next' or 'refresh' buttons. This version is likely to be encountered by less than 2% of users.</dd>
 <dt>All users knew what to expect at the end of this process - an advance order form or an email with confirmation and link to an advance order form so let's keep this similar in next iterations unless we can make this even more seamless.</dt>
 <dd>This part of the process has not changed in this iteration but this feedback will be considered in future iterations.</dd>
+</dl>
+
+## Team feedback 
+
+It also incorporates changes in response to feedback provided when it was shared with the Digital Services team: 
+
+<dl>
+<dt>Indicate that there are many more 'standard' seats than there are 'bulk order' seats</dt>
+<dd>We have proposed updating the options presented on the first page to include the number of spaces available for each.</dd>
+<dt>Add version of availability which demonstrates how no availability is shown</dt>
+<dd>...</dd>
+<dt>Provide hint of user's email address on confirmation page</dt>
+<dd>We have proposed updating the Reader's Ticket entry page to allow users to see a hint of the email address associated with their Reader's Ticket before submitting the form. Note: there may be broader implications of this which we need to discuss as a team (for example, what's the process for changing an email address associated with a Reader's Ticket)</dd>
+<dt>User indicated it would be helpful if there was a way for them to change the email address associated with their Reader's Ticket</dt>
+<dd>We expect this is beyond MVP</dd>
 </dl>
 
 Additional notes on Version 1.5: 
