@@ -64,7 +64,7 @@ It also incorporates changes in response to feedback provided when it was shared
 <dt>Add version of availability which demonstrates how no availability is shown</dt>
 <dd>...</dd>
 <dt>Provide hint of user's email address on confirmation page</dt>
-<dd>We have proposed updating the Reader's Ticket entry page to allow users to see a hint of the email address associated with their Reader's Ticket before submitting the form. Note: there may be broader implications of this which we need to discuss as a team (for example, what's the process for changing an email address associated with a Reader's Ticket)</dd>
+<dd>We have proposed updating the Reader's Ticket entry page to allow users to see a hint of the email address associated with their Reader's Ticket before submitting the form. Note: there may be broader implications of this which we need to discuss as a team (for example, what's the process for changing an email address associated with a Reader's Ticket; what do we say to users who see their email address is wrong)</dd>
 <dt>User indicated it would be helpful if there was a way for them to change the email address associated with their Reader's Ticket</dt>
 <dd>We expect this is beyond MVP</dd>
 </dl>
@@ -214,15 +214,4 @@ This user testing was against version 1.4 of the wireframes with six participant
 
 ## Estimation table
 
-| Specialism | Confidence in understanding of what is required | High-level estimate of dedicated effort required | Confidence in this estimate | Further information | How much of this work would be throw-away
-|---|---|---|---|---|---|
-| Testing effort (all required types) |||||
-| UX effort |||||
-| Content design effort |||||
-| Analytics effort |||||
-| Reporting effort |||||
-| Server-side development effort |||||
-| Front end development effort | Medium |  | Medium | This is based on the flow shown in 1.0. This includes all known screens and partials delivered through [the development approach agreed for Beta](https://github.com/nationalarchives/front-end-development-guide/blob/master/development-guide.md#practical-application-of-progressive-enhancement-at-tna) ⚐ and tested for accessibility. | If this is a new application most work should be usable going forward.
-| Design effort |||||
-
-⚐ **Note:** the MVP progressive enhancement approach is for a change event listener to be placed upon the availability widget. The associated event handler will trigger a submit event and subsequent page refresh. A further enhancement is possible via a stateful React component that communicates directly with an availability API (that the back end developers would need to create) and which updates the History API and provides state change information to assistive technologies. This would need to be estimated separately.  
+On 27 January the estimation table was moved to Miro and can be found at the right hand side of [this board](https://miro.com/app/board/o9J_lfhjfK4=/)
