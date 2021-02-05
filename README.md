@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * **Diagram versions**
+    * [Version 1.5.1](#version-151) updates the flow to reflect a new URL approach
     * [Version 1.5](#version-15) incorporates changes in response to the first round of user testing
     * [Version 1.4](#version-14) allows users to see general availability up front and/or select a specific date up-front
     * [Version 1.3](#version-13) extracts the confirmation step to a separate page and accommodates analytics feedback in HTTP parameter options
@@ -28,6 +29,10 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.5.1
+
+This [version](iterations/1.5.1.pdf) is a minor update to reflect back end development decisions about URLs. These changes have been agreed by analytics. 
 
 ## Version 1.5 
 
