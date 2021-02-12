@@ -204,20 +204,6 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 
 ## User testing feedback
 
-## First iteration
-
-This user testing was against version 1.4 of the wireframes with six participants. Recommendations are: 
-
-1. Make it very clear where to start the process - Users are confused by being able to choose by date and by order type - make it more clear what they need to do in the first step
-2. Allow users to easily start with a date/availability.
-3. Try to limit the number of pages/steps so if user needs to amend a choice to increase availability they can do it more easily.
-4. The title of this page is 'Book a Visit' confusing to start with choosing an order type. Refine this to be more about the visit rather than document type.
-5. Most users did not notice the reader's ticket or computer booking options - this needs to be reconsidered.
-6. Perhaps less emphasis on Bulk and Map room as these are not as common - not equal choices as currently presented. Instead perhaps show availability by default to the most common type of booking (Standard with Standard reading room  with an option to add a camera stand. You could allow users to change this default view via filters perhaps? Perhaps as well signposting to a separate journey for bulk orders as these are so different.
-7. User needs immediate feedback on choices made and a way to undo/amend easily to increase availability.
-8. Instead of clicking 'next ' or 'refresh' can this happen automatically when user selects the option itself, thus removing an interaction/step?
-9. All users knew what to expect at the end of this process - an advance order form or an email with confirmation and link to an advance order form so let's keep this similar in next iterations unless we can make this even more seamless.
-
 ## Second iteration
 
 This user testing was against version 1.5 of the wireframes. Recommendations were made for each page and added to the [Miro board](https://miro.com/app/board/o9J_lfhjfK4=/?moveToWidget=3074457354146464929&cot=14). The overall experience reported on the Miro board is: 
@@ -297,6 +283,21 @@ The list of 44 recommendations below was extracted from Miro on 12 February.
 * "will it be possible to select a seat? when will users be told what seat they have been allocated?"
 * "we will need to clarify comms about next steps for users"
 
-## Estimation table
+## First iteration
+
+This user testing was against version 1.4 of the wireframes with six participants. Recommendations are: 
+
+1. Make it very clear where to start the process - Users are confused by being able to choose by date and by order type - make it more clear what they need to do in the first step
+2. Allow users to easily start with a date/availability.
+3. Try to limit the number of pages/steps so if user needs to amend a choice to increase availability they can do it more easily.
+4. The title of this page is 'Book a Visit' confusing to start with choosing an order type. Refine this to be more about the visit rather than document type.
+5. Most users did not notice the reader's ticket or computer booking options - this needs to be reconsidered.
+6. Perhaps less emphasis on Bulk and Map room as these are not as common - not equal choices as currently presented. Instead perhaps show availability by default to the most common type of booking (Standard with Standard reading room  with an option to add a camera stand. You could allow users to change this default view via filters perhaps? Perhaps as well signposting to a separate journey for bulk orders as these are so different.
+7. User needs immediate feedback on choices made and a way to undo/amend easily to increase availability.
+8. Instead of clicking 'next ' or 'refresh' can this happen automatically when user selects the option itself, thus removing an interaction/step?
+9. All users knew what to expect at the end of this process - an advance order form or an email with confirmation and link to an advance order form so let's keep this similar in next iterations unless we can make this even more seamless.
+
+
+# Estimation table
 
 On 27 January the estimation table was moved to Miro and can be found at the right hand side of [this board](https://miro.com/app/board/o9J_lfhjfK4=/)
