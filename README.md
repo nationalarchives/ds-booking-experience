@@ -36,7 +36,7 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 This [version](iterations/1.6.pdf) updates the flow to reflect the two-step document ordering process.
 
-Changes to the screens include: 
+### Changes in response to user testing recommendations 
 
 <dl>
     <dt>"there was confusion around 'number of docs needed' and 'add fields' most users expected the number of fields shown to correspond with the number of documents permitted to order"</dt>
