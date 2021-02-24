@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * **Diagram versions**
+    * [Version 1.6](#version-16) updates the flow to reflect two-step document ordering process
     * [Version 1.5.1](#version-151) updates the flow to reflect a new URL approach
     * [Version 1.5](#version-15) incorporates changes in response to the first round of user testing
     * [Version 1.4](#version-14) allows users to see general availability up front and/or select a specific date up-front
@@ -31,6 +32,48 @@ Once a workable high-level flow representing required steps is understood and we
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
 
+## Version 1.6
+
+This [version](iterations/1.6.pdf) updates the flow to reflect the two-step document ordering process, decisions about process changes and additional content items to be reflected.
+
+### Changes in response to user testing recommendations 
+
+<dl>
+    <dt>"there was confusion around 'number of docs needed' and 'add fields' most users expected the number of fields shown to correspond with the number of documents permitted to order"</dt>
+    <dd>
+        <p>We have addressed this by showing all fields. They are presented on larger screens in four columns.</p>
+        <p>We did have a question here: is the series field within the bulk order form necessary? We anticipate it's needed to help identify any added items that are not from the series (and to simplify the necessary validation messages). If so we think it could be made clearer - for example, by saying something along the lines of "Enter the series number. All documents will be checked against this"
+    </dd>
+    <dt>"much confusion around the  'reserve'  tick boxes in both panes: is a doc only ordered once I tick reserve and the others are just there for later?"</dt>
+    <dd>We have addressed this by giving reserves their own fieldset and legend (title).</dd>
+    <dt>"make it clear from this page how to get back to this form to amend"</dt>
+    <dd>We have added some content which explains this to both the order form and the confirmation page. For the confirmation page there is also a link to 'Edit your order'. This all needs to be reviewed by content speclialsts.</dd>
+    <dt>"users understand 'save changes' but some expected an additional page after this with the full, printable, document order and a 'confirm order' button to submit"</dt>
+    <dd>It is now a two-step process of editing and reviewing the order. The button text will need to be reviewed by content experts.</dd>
+    <dt>"expectation of a time for the deadline for ordering"</dt>
+    <dd>We had added a time (and time zone) to the next iteration. Note: this will need some thought regarding the difference between <a href="https://www.gov.uk/when-do-the-clocks-change">GMT and BST</a>.</dd>
+    <dt>"most users very happy with ability to amend order until deadline - but some experienced users stated they would not need this"</dt>
+    <dd>We don't think this requires any changes to the user interface or flow since it currenlty supports their needs.</dd>
+    <dt>"would be good to manage expectations about when doc order is actually confirmed and if this will be in time to choose alternates ( will be told if their docs are already reserved for someone else and if they can add more in that case)"</dt>
+    <dd>We have copied over the microcopy from the existing Advance and Bulk Order forms, removing or reordering where appropriate (for example, removing the Privacy Policy statement since these forms no longer capture personal information).</dd> 
+    <dt>"there was some confusion around where you would go to get document references - we need express this clearly"</dt>
+    <dd>We've added the microcopy from the existing forms which explains this.</dd>
+    <dt>"user expect it to be clear if a doc reference has been 'validated'"</dt>
+    <dd>We are proposing that a standard validation pattern (as is in place for the existing Bulk and Advance Order forms) would work here. This would be a summary message and individual field messages.</dd>
+    <dt>"is there a way to change booking and keep doc order if we are booking 4 weeks in advance and something comes up?"</dt>
+    <dd>This seems out of scope for the MVP</dd>
+    <dt>"will it be possible to select a seat? when will users be told what seat they have been allocated?"</dt>
+    <dd>Seat selection is not within scope for the MVP. The seat will be allocated to the user. The question about when users will be told is to be agreed.</dd>
+    <dt>"we will need to clarify comms about next steps for users"</dt>
+    <dd>We need to explore this more as a team to understand what is needed.</dd>
+</dl>
+
+### Other changes
+
+* We have removed the 'Computer use only' option from the home page (on the basis that this has been deemed beyond the MVP)
+* Updated the UI to reflect Bulk Orders being two days (only) and Standard Orders being one day (only)
+* Add acceptance of T&Cs and coronavirus to booking form
+
 ## Version 1.5.1
 
 This [version](iterations/1.5.1.pdf) is a minor update to reflect back end development decisions about URLs. These changes have been agreed by analytics. 
@@ -49,7 +92,7 @@ This [version](iterations/1.5.pdf) incorporates the following changes **in respo
 <dt>The title of this page is 'Book a Visit' confusing to start with choosing an order type. Refine this to be more about the visit rather than document type.</dt>
 <dd>We have updated the page title to be 'Book a visit to view our documents'. We have also updated the options to reflect this with 'Book a standard visit' and 'Book a bulk order visit'. </dd>
 <dt>Most users did not notice the reader's ticket or computer booking options - this needs to be reconsidered.</dt>
-<dd>We have suggested that 'What you will need to book a visit' is treated as page content - rather than given the visual treatment given to options on the page - and is placed before the booking options on the basis that it has information related to that decision. We have also suggested that the 'PC use only' option is moved below the primary booking options and given a slightly different visual treatment.</dd>
+<dd>We have suggested that 'What you will need to book a visit' is treated as page content - rather than given the visual treatment given to options on the page - and is placed before the booking options on the basis that it has information related to that decision. We have also suggested that the 'PC use only' option is moved below the primary booking options and given a slightly different visual treatment (though we'll need to be careful that it is short).</dd>
 <dt>Perhaps less emphasis on Bulk and Map room as these are not as common - not equal choices as currently presented. Instead perhaps show availability by default to the most common type of booking (Standard with Standard reading room  with an option to add a camera stand. You could allow users to change this default view via filters perhaps? Perhaps as well signposting to a separate journey for bulk orders as these are so different.</dt>
 <dd>We have suggested addressing this in two ways: firstly by having the 'standard' option visually differentiated from the bulk option with guidance that it is the 'Most commmon choice'. Secondly, the Map room will not be presented as the default option on the availability tool.</dd>
 <dt>User needs immediate feedback on choices made and a way to undo/amend easily to increase availability.</dt>
@@ -206,82 +249,9 @@ This [version](iterations/0.0.6.pdf) has been updated to reflect, where possible
 
 ## Second iteration
 
-This user testing was against version 1.5 of the wireframes. Recommendations were made for each page and added to the [Miro board](https://miro.com/app/board/o9J_lfhjfK4=/?moveToWidget=3074457354146464929&cot=14). The overall experience reported on the Miro board is: 
+This user testing was against version 1.5 of the wireframes. Recommendations were made for each page and added to the [Miro board](https://miro.com/app/board/o9J_lfhjfK4=/?moveToWidget=3074457354146464929&cot=14). 
 
-* "Very clear process"
-* "Overall thinks this system is sensible - but ordering docs is the most important thing"
-* "Overall it is good - I found it fine, a scroll through a set of dates works and starting with choosing a type of order works (he is not sure who needs a bulk order - must be someone doing an awful lot of research like a student or something)"
-* "Better than last iteration"
-* "Went through the flow pretty smoothly (and quickly!)"
-* "General observation: experienced user, very fast, didn't 'read' detail but rather scanned pages for next action/button to click"
-* "Overall thinks this is a pretty standard booking system - although ticket details is specific to TNA - usually you get given a ticket number instead of providing one"
-* "Surprised anyone would book computers only - need to be more clear about why you would want to do this"
-* "The fewer choices the better - keep it simple for people"
-* "Did the whole flow easily but when we went back step by step she struggled more"
-* "Really good - I didn't need any help"
-
-The list of 44 recommendations below was extracted from Miro on 12 February. 
-
-### Service homepage
-
-* "users need to see availability 1st so they know whether to spend another minute thinking about booking"
-* "users need to know what they need to book and a) what a reader's ticket is b) how to get one/renew one/find ticket number on one"
-* "need a TNA convention for how we handle archival terms such as series (an 'i' symbol, a link to a glossary...)"
-* "term standard visit works well"
-* "'most common choice' not needed - users can decide based on the information presented what they need"
-* "list of what determines a standard or bulk visit was helpful (apart from word series)"
-* "universal understanding that 'how to book and what to expect' would take take them to a step by step guide to booking (the idiot's guide)"
-* "PCs - needs to be more clear why you would book this (Free access to Ancestry/FMP!) and be clear if a reader's ticket would be needed for this."
-* "there is some confusion around one or two day visit - who decides this? TNA/the system/the user? and how does this impact doc ordering and booking allocation per month"
-* "availability on the homepage works"
-* "users need to know if there are any restrictions on number of visits booked"
-* "users need to understand WHY any restrictions on bookings are in place"
-* "T&Cs/covid charter/face mask policy etc  need to be checked - where on this journey?"
-* "clear calls to action that show step by step what user needs to do"
-
-### Availability page
-
-* "need to consider business rules (number of days/visits per month etc)  and if we can simplify process as much as possible"
-* "users understood choosing filters on left and saw feedback in the availability"
-* "camera stand option could be more visible"
-* "look at label 'map and large doc' and how to express this to users in same way as series ('i' or link etc)"
-* "users liked/understood the availability but need to refer to business rules around number of weeks shown etc - users want to know how far ahead they can book"
-* "Confusion around 1 or 2 day visit - this needs to be flushed out and made clear"
-* "Users like seeing what day  of the week and number available when making their decision"
-* "Many - but not all - saw the bulk order button but most said they would use the back button if they had made a mistake in choosing standard order."
-
-### Summary and secure booking with readers ticket page
-
-* "users new to TNA do not know what a reader's ticket is (one user even said he usually was GIVEN a ticket number when making a booking never had to provide one himself)"
-* "some users do not know where to find the ticket number on their reader's ticket - we need to give users more guidance  on this"
-* "most users saw the link to register for a reader's ticket but some clarity is sought about how to get a temporary ticket, and whether you would lose your booking if you followed this link (would it open a separate window? how long would to get back to the booking before it times out?)"
-* "some users were surprised by what happened when they clicked 'check ticket details' - this label could do with a tweak more along the lines of verify email associated with this ticket (although one user expected it to say 'welcome back ____! Your reader's ticket is still valid.... and if nearing expiry to prompt to get renewing"
-* "the idea of verifying the reader's ticket/email makes sense to many users though although - esp as a successful booking hinges on email communication"
-
-### Booking confirmation page
-
-* "many users were confused with the label 'continue booking now' - they felt they had completed their booking already and felt anxious perhaps they hadn't done it correctly - really they are going to continue to document ordering"
-* "users appreciated the summary at the top and double checked it"
-* "some users were uncertain where these buttons would take them"
-* "users need to know what happens if they don't complete their booking in time"
-* "one user brought up that they expected a booking ref number on this page with the summary in case something gets lost - esp needed if users are making multiple bookings in a month to keep the doc orders and bookings clear (which documents for which days)"
-
-### Order documents
-
-**Please note:** a very early version of a proposed approach to document ordering was presented to users so, while aspects of user feedback is useful the next iteration will not be an evolution of what was shown to users.
-
-* "there was confusion around 'number of docs needed' and 'add fields' most users expected the number of fields shown to correspond with the number of documents permitted to order"
-* "much confusion around the  'reserve'  tick boxes in both panes: is a doc only ordered once I tick reserve and the others are just there for later?"
-* "make it clear from this page how to get back to this form to amend"
-* "users understand 'save changes' but some expected an additional page after this with the full, printable, document order and a 'confirm order' button to submit"
-* "expectation of a time for the deadline for ordering"
-* "most users very happy with ability to amend order until deadline - but some experienced users stated they would not need this"
-* "would be good to  manage expectations about when doc order is actually confirmed and if this will be in time to choose alternates ( will be told if their docs are already reserved for someone else and if they can add more in that case)"
-* "there was some confusion around where you would go to get document references - we need express this clearly"
-* "user expect it to be clear if a doc reference has been 'validated'"
-* "is there a way to change booking and keep doc order if we are booking 4 weeks in advance and something comes up?"
-* "will it be possible to select a seat? when will users be told what seat they have been allocated?"
-* "we will need to clarify comms about next steps for users"
+Actions in response to these recommendations can be found [here](actions-in-response-to-second-iteration-ux-recommendations.md).
 
 ## First iteration
 
