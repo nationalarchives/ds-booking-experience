@@ -34,7 +34,7 @@ Diagrams can be opened in [draw.io](https://draw.io). For each there is also a P
 
 ## Version 1.6
 
-This [version](iterations/1.6.pdf) updates the flow to reflect the two-step document ordering process.
+This [version](iterations/1.6.pdf) updates the flow to reflect the two-step document ordering process, decisions about process changes and additional content items to be reflected.
 
 ### Changes in response to user testing recommendations 
 
@@ -68,7 +68,11 @@ This [version](iterations/1.6.pdf) updates the flow to reflect the two-step docu
     <dd>We need to explore this more as a team to understand what is needed.</dd>
 </dl>
 
+### Other changes
 
+* We have removed the 'Computer use only' option from the home page (on the basis that this has been deemed beyond the MVP)
+* Updated the UI to reflect Bulk Orders being two days (only) and Standard Orders being one day (only)
+* Add acceptance of T&Cs and coronavirus to booking form
 
 ## Version 1.5.1
 
