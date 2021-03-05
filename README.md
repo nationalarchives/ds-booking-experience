@@ -3,6 +3,7 @@
 Use this list to navigate this page:
 
 * **Diagram versions**
+    * [Version 1.6.5](#version-165) reflect co-design sessions and design decisions within the team
     * [Version 1.6](#version-16) updates the flow to reflect two-step document ordering process
     * [Version 1.5.1](#version-151) updates the flow to reflect a new URL approach
     * [Version 1.5](#version-15) incorporates changes in response to the first round of user testing
@@ -31,6 +32,21 @@ The first step of Workstream 2 is analysis of required messaging, decisions and 
 Once a workable high-level flow representing required steps is understood and we have a clear sense of the scope for this work, we will need to estimate the effort involved in delivery. **If estimates exceed available time and resources, we may at this point need to revisit the scope and flow**. There is [a table](#estimation-table) below for recording estimates and related considerations.
 
 Diagrams can be opened in [draw.io](https://draw.io). For each there is also a PDF version. There are also Axure prototypes which have the `.rp` file extension.
+
+## Version 1.6.5
+
+This [version](iterations/1.6.5.pdf) updates the flow and screens to reflect the co-design sessions and design decisions within the team.
+
+Changes in 1.6.5 were to:
+
+* Reinstate "Before you book" to the home page along with a link to Reader Registration
+* Add a link to 'Return to your booking' form to the wireframe home screen and flow
+* Remove 'Order type' portion from the 'Return to your booking form' URL path (since this will be linked to from the home page and we will not therefore know if the user has a bulk or standard order)
+* Clarify that link validity check from 'Return to your booking form' is in page validation
+* Add pages for visit cancellation and simplify this part of the flow (it now simply requires confirmation rather than providing booking reference and Reader's Ticket number)
+* Update flow to stipulate that the document order form becomes read only once the deadline for document orders has passed.
+* Reinstate link to bulk or standard order from data selection page
+* Introduce several small editorial changes in response to comments added to Axure prototypes
 
 ## Version 1.6
 
