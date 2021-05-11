@@ -2,6 +2,7 @@
 
 Use this list to navigate this page:
 
+* Before go-live an [accessibility evaluation](https://github.com/nationalarchives/ds-booking-experience/blob/master/Book%20a%20visit%20(accessibility%20evaluation).pdf) was conducted to identify any issues relevant to WCAG 2.1 at Level AA.
 * **Diagram versions**
     * [Version 1.6.5](#version-165) reflect co-design sessions and design decisions within the team
     * [Version 1.6](#version-16) updates the flow to reflect two-step document ordering process
